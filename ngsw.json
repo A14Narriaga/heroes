@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1636049993278,
+  "index": "https://a14narriaga.github.io/heroes/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://a14narriaga.github.io/heroes/favicon.ico",
+        "https://a14narriaga.github.io/heroes/index.html",
+        "https://a14narriaga.github.io/heroes/main.27f3932243943f31.js",
+        "https://a14narriaga.github.io/heroes/manifest.webmanifest",
+        "https://a14narriaga.github.io/heroes/polyfills.85fa24cd1ba3cda2.js",
+        "https://a14narriaga.github.io/heroes/runtime.a401e8bd700fe776.js",
+        "https://a14narriaga.github.io/heroes/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-128x128.png",
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-144x144.png",
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-152x152.png",
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-192x192.png",
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-384x384.png",
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-512x512.png",
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-72x72.png",
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://a14narriaga.github.io/heroes/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://a14narriaga.github.io/heroes/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://a14narriaga.github.io/heroes/index.html": "532efcd4f089d751488f9d7b5b158a5b55792648",
+    "https://a14narriaga.github.io/heroes/main.27f3932243943f31.js": "3833d1a4fe065539031914e04c7cd095b0b33906",
+    "https://a14narriaga.github.io/heroes/manifest.webmanifest": "4d8dafef1e45d2278e999f4bd42d4de8f1c8a016",
+    "https://a14narriaga.github.io/heroes/polyfills.85fa24cd1ba3cda2.js": "63be5f159ecb314dbe22a51835cd95f37f457f8d",
+    "https://a14narriaga.github.io/heroes/runtime.a401e8bd700fe776.js": "86be6f862e3243755b2c8d8398ecf4859d2abc69",
+    "https://a14narriaga.github.io/heroes/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
