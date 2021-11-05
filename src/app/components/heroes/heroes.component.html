@@ -1,1 +1,32 @@
-<p>heroes works!</p>
+<h2>Marvel and DC Heroes</h2>
+<hr />
+<div class="row row-cols-1 row-cols-md-3 g-4">
+	<div class="col animated fadeIn fast " *ngFor="let hero of heroes">
+		<div class="card">
+			<img
+				[src]="hero.img"
+				[alt]="hero.name"
+				class="card-img-top" />
+			<div class="card-body">
+				<h5 class="card-title">
+					{{ hero.name }}
+				</h5>
+				<p class="card-text">
+					{{ hero.bio }}
+				</p>
+				<p class="card-text">
+					<small class="text-muted">
+						{{ hero.first }}
+					</small>
+				</p>
+				<div class="d-grid gap-2">
+					<a
+						href="#"
+						class="btn btn-outline-primary">
+						Show more...
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
