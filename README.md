@@ -16,7 +16,9 @@ npx ng serve
 
 ## Angular CLI
 ```
-npx ng g c <component_name>
+npx ng g c components/<name>
+npx ng g s services/<name>/<name>
+npx ng g r 
 ```
 
 ## Generate node_modules
@@ -24,7 +26,7 @@ npx ng g c <component_name>
 npm i
 ```
 
-## Add Eslint format
+## Eslint format
 ```
 npx ng add @angular-eslint/schematics
 npx ng lint --format
@@ -36,18 +38,18 @@ npm i --global prettier
 npx prettier --write .\src\
 ```
 
-## Add PWA
+## PWA
 ```
 npx ng add @angular/pwa 
 ```
 
-## Install develop dependencies
+## Develop dependencies
 ```
 npm i --save-dev prettier
 npm i --save-dev @fortawesome/fontawesome-free
 ```
 
-## Styles
+## Bootstrap
 [Bootstrap v5.1](https://getbootstrap.com/docs/5.1/getting-started/download/)
 
 # Github pages
