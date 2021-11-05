@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636049993278,
+  "timestamp": 1636098485600,
   "index": "https://a14narriaga.github.io/heroes/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "https://a14narriaga.github.io/heroes/favicon.ico",
         "https://a14narriaga.github.io/heroes/index.html",
-        "https://a14narriaga.github.io/heroes/main.27f3932243943f31.js",
+        "https://a14narriaga.github.io/heroes/main.614118877b855a79.js",
         "https://a14narriaga.github.io/heroes/manifest.webmanifest",
         "https://a14narriaga.github.io/heroes/polyfills.85fa24cd1ba3cda2.js",
         "https://a14narriaga.github.io/heroes/runtime.a401e8bd700fe776.js",
-        "https://a14narriaga.github.io/heroes/styles.ef46db3751d8e999.css"
+        "https://a14narriaga.github.io/heroes/styles.a59a2a6d55da775c.css"
       ],
       "patterns": []
     },
@@ -36,7 +36,14 @@
         "https://a14narriaga.github.io/heroes/assets/icons/icon-384x384.png",
         "https://a14narriaga.github.io/heroes/assets/icons/icon-512x512.png",
         "https://a14narriaga.github.io/heroes/assets/icons/icon-72x72.png",
-        "https://a14narriaga.github.io/heroes/assets/icons/icon-96x96.png"
+        "https://a14narriaga.github.io/heroes/assets/icons/icon-96x96.png",
+        "https://a14narriaga.github.io/heroes/assets/img/aquaman.png",
+        "https://a14narriaga.github.io/heroes/assets/img/batman.png",
+        "https://a14narriaga.github.io/heroes/assets/img/daredevil.png",
+        "https://a14narriaga.github.io/heroes/assets/img/hulk.png",
+        "https://a14narriaga.github.io/heroes/assets/img/linterna-verde.png",
+        "https://a14narriaga.github.io/heroes/assets/img/spiderman.png",
+        "https://a14narriaga.github.io/heroes/assets/img/wolverine.png"
       ],
       "patterns": []
     }
@@ -51,13 +58,20 @@
     "https://a14narriaga.github.io/heroes/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://a14narriaga.github.io/heroes/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://a14narriaga.github.io/heroes/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://a14narriaga.github.io/heroes/assets/img/aquaman.png": "6f888c972601d1e3795727399241409a39325a19",
+    "https://a14narriaga.github.io/heroes/assets/img/batman.png": "c79ba6ec0ff094183c56563c156eecb47c3b9969",
+    "https://a14narriaga.github.io/heroes/assets/img/daredevil.png": "97bcb75391a39b9c56122e2f4eabe10feede01f5",
+    "https://a14narriaga.github.io/heroes/assets/img/hulk.png": "af2ed8c7d4c25db3239204c7edee8d31fed2986b",
+    "https://a14narriaga.github.io/heroes/assets/img/linterna-verde.png": "0943883c4a1e710be7f16b110c8f76ce84649c67",
+    "https://a14narriaga.github.io/heroes/assets/img/spiderman.png": "c22d275f2bea490cd1cc2828c65b5f5bfef1946a",
+    "https://a14narriaga.github.io/heroes/assets/img/wolverine.png": "c39dac4245c9b7c2f49c6bb380cf439df8f4c5c2",
     "https://a14narriaga.github.io/heroes/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://a14narriaga.github.io/heroes/index.html": "532efcd4f089d751488f9d7b5b158a5b55792648",
-    "https://a14narriaga.github.io/heroes/main.27f3932243943f31.js": "3833d1a4fe065539031914e04c7cd095b0b33906",
-    "https://a14narriaga.github.io/heroes/manifest.webmanifest": "4d8dafef1e45d2278e999f4bd42d4de8f1c8a016",
+    "https://a14narriaga.github.io/heroes/index.html": "b306588c781d0c39811a6dde9f45ff20f69bd863",
+    "https://a14narriaga.github.io/heroes/main.614118877b855a79.js": "348a0a77edf1076c25473050cc2781d4275d13fd",
+    "https://a14narriaga.github.io/heroes/manifest.webmanifest": "d7472f65da143688b0c77fd7e0cab237e48176e1",
     "https://a14narriaga.github.io/heroes/polyfills.85fa24cd1ba3cda2.js": "63be5f159ecb314dbe22a51835cd95f37f457f8d",
     "https://a14narriaga.github.io/heroes/runtime.a401e8bd700fe776.js": "86be6f862e3243755b2c8d8398ecf4859d2abc69",
-    "https://a14narriaga.github.io/heroes/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "https://a14narriaga.github.io/heroes/styles.a59a2a6d55da775c.css": "c4a17256e67c440946c70b563264e3a0703b3178"
   },
   "navigationUrls": [
     {
