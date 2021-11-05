@@ -2,10 +2,10 @@
 	"semi": false,
 	"singleQuote": true,
 	"useTabs": true,
-	"printWidth": 50,
+	"printWidth": 45,
 	"bracketSpacing": true,
 	"bracketSameLine": true,
-  "htmlWhitespaceSensitivity": "ignore",
+	"htmlWhitespaceSensitivity": "ignore",
 	"arrowParens": "always",
 	"endOfLine": "lf"
 }

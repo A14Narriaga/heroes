@@ -1,12 +1,7 @@
 <nav
-	class="
-		navbar navbar-expand-lg navbar-dark
-		bg-dark
-	">
+	class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<div class="container">
-		<a
-			class="navbar-brand"
-			[routerLink]="['home']">
+		<a class="navbar-brand" [routerLink]="['home']">
 			Superhero comics
 		</a>
 		<button
@@ -42,13 +37,16 @@
 			</ul>
 			<form class="d-flex">
 				<input
+					#inputText
+					(keyup.enter)="searchHeroes(inputText.value)"
 					class="form-control me-2"
 					type="search"
-					placeholder="Search"
+					placeholder="Hero's name"
 					aria-label="Search" />
 				<button
+					(click)="searchHeroes(inputText.value)"
 					class="btn btn-outline-primary"
-					type="submit">
+					type="button">
 					Search
 				</button>
 			</form>

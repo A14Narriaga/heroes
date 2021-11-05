@@ -13,7 +13,7 @@ import { AppComponent } from './app.component'
 import { NavbarComponent } from './components/shared/navbar/navbar.component'
 import { HomeComponent } from './components/home/home.component'
 import { AboutComponent } from './components/about/about.component'
-import { HeroesComponent } from './components/heroes/heroes.component';
+import { HeroesComponent } from './components/heroes/heroes.component'
 import { HeroComponent } from './components/hero/hero.component'
 
 @NgModule({
@@ -23,19 +23,15 @@ import { HeroComponent } from './components/hero/hero.component'
 		HomeComponent,
 		AboutComponent,
 		HeroesComponent,
-  HeroComponent,
+		HeroComponent,
 	],
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
-		ServiceWorkerModule.register(
-			'ngsw-worker.js',
-			{
-				enabled: environment.production,
-				registrationStrategy:
-					'registerWhenStable:30000',
-			}
-		),
+		ServiceWorkerModule.register('ngsw-worker.js', {
+			enabled: environment.production,
+			registrationStrategy: 'registerWhenStable:30000',
+		}),
 	],
 	providers: [],
 	bootstrap: [AppComponent],

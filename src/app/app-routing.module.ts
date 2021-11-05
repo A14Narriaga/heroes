@@ -1,9 +1,6 @@
 // Modules
 import { NgModule } from '@angular/core'
-import {
-	RouterModule,
-	Routes,
-} from '@angular/router'
+import { RouterModule, Routes } from '@angular/router'
 
 // Components
 import { HomeComponent } from './components/home/home.component'
@@ -21,10 +18,14 @@ const routes: Routes = [
 		component: HeroesComponent,
 	},
 	{
+		path: 'heroes/:name',
+		component: HeroesComponent,
+	},
+	{
 		path: 'about',
 		component: AboutComponent,
 	},
-  {
+	{
 		path: 'hero/:id',
 		component: HeroComponent,
 	},

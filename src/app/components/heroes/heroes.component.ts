@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import { Router } from '@angular/router'
+import { ActivatedRoute } from '@angular/router'
 
 // Services
 import {
@@ -14,18 +14,26 @@ import {
 })
 export class HeroesComponent implements OnInit {
 	heroes: Hero[]
+	searchText: string
 	constructor(
 		private heroesService: HeroesService,
-		private router: Router
+		private activatedRoute: ActivatedRoute
 	) {
 		this.heroes = []
+		this.searchText = ''
 	}
 
 	ngOnInit(): void {
-		this.heroes = this.heroesService.getHeroes()
-	}
-
-	showHero = (index: number) => {
-		this.router.navigate(['/hero', index])
+		this.activatedRoute.params.subscribe((params) => {
+			if (params['name'] && params['name'] !== '') {
+				this.searchText = params['name']
+				this.heroes = this.heroesService.searchHeroes(
+					params['name']
+				)
+			} else {
+				this.heroes = this.heroesService.getHeroes()
+				this.searchText = ''
+			}
+		})
 	}
 }
