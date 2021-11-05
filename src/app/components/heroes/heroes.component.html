@@ -1,7 +1,9 @@
 <h2>Marvel and DC Heroes</h2>
 <hr />
 <div class="row row-cols-1 row-cols-md-3 g-4">
-	<div class="col animated fadeIn fast " *ngFor="let hero of heroes">
+	<div
+		class="col animated fadeIn fast"
+		*ngFor="let hero of heroes; let i = index">
 		<div class="card">
 			<img
 				[src]="hero.img"
@@ -21,10 +23,15 @@
 				</p>
 				<div class="d-grid gap-2">
 					<a
-						href="#"
+						[routerLink]="['/hero', i]"
 						class="btn btn-outline-primary">
 						Show more...
 					</a>
+          <!-- <button
+            (click)="showHero(i)"
+						class="btn btn-outline-primary">
+						Show more...
+					</button> -->
 				</div>
 			</div>
 		</div>

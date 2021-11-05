@@ -1,0 +1,48 @@
+<h2 class="animated fadeIn">
+	{{ hero.name }}
+	<small class="text-muted">
+		{{ hero.first }}
+	</small>
+</h2>
+
+<hr />
+
+<div class="row animated fadeIn fast">
+	<div class="col-md-4">
+		<img
+			[src]="hero.img"
+			[alt]="hero.name"
+			class="img-fluid rounded-start" />
+		<br />
+		<br />
+		<div class="d-grid gap-2">
+			<a
+				[routerLink]="['/heroes']"
+				class="btn btn-outline-danger">
+				Back
+			</a>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="header">
+			<h3>{{ hero.name }}</h3>
+			<img
+				*ngIf="hero.home === 'DC'"
+				src="assets/img/dc.jpg"
+				[alt]="hero.home"
+				class="img-fluid rounded-start"
+				width="10%" />
+			<img
+				*ngIf="hero.home === 'Marvel'"
+				src="assets/img/marvel.png"
+				[alt]="hero.home"
+				class="img-fluid rounded-start"
+				width="10%" />
+		</div>
+		<hr />
+		<p>{{ hero.bio }}</p>
+		<p class="text-muted">
+			{{ hero.first }}
+		</p>
+	</div>
+</div>

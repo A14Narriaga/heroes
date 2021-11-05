@@ -15,7 +15,7 @@ export class HeroesService {
 	private heroes: Hero[] = [
 		{
 			name: 'Aquaman',
-			bio: 'El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.',
+			bio: 'Aquaman´s most recognized power is the telepathic ability to communicate with marine life, which it can summon over great distances.',
 			img: 'assets/img/aquaman.png',
 			first: '1941-11-01',
 			home: 'DC',
@@ -69,4 +69,6 @@ export class HeroesService {
 	}
 
 	getHeroes = (): Hero[] => this.heroes
+
+	getHeroe = (id: number): Hero => this.heroes[id]
 }

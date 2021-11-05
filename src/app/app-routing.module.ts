@@ -9,6 +9,7 @@ import {
 import { HomeComponent } from './components/home/home.component'
 import { HeroesComponent } from './components/heroes/heroes.component'
 import { AboutComponent } from './components/about/about.component'
+import { HeroComponent } from './components/hero/hero.component'
 
 const routes: Routes = [
 	{
@@ -22,6 +23,10 @@ const routes: Routes = [
 	{
 		path: 'about',
 		component: AboutComponent,
+	},
+  {
+		path: 'hero/:id',
+		component: HeroComponent,
 	},
 	{
 		path: '**',
