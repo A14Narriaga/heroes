@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636153351998,
+  "timestamp": 1636155528958,
   "index": "https://a14narriaga.github.io/heroes/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://a14narriaga.github.io/heroes/favicon.ico",
         "https://a14narriaga.github.io/heroes/index.html",
-        "https://a14narriaga.github.io/heroes/main.a37f95cd50840d3c.js",
+        "https://a14narriaga.github.io/heroes/main.074b777558bb5470.js",
         "https://a14narriaga.github.io/heroes/manifest.webmanifest",
         "https://a14narriaga.github.io/heroes/polyfills.85fa24cd1ba3cda2.js",
         "https://a14narriaga.github.io/heroes/runtime.a401e8bd700fe776.js",
@@ -70,8 +70,8 @@
     "https://a14narriaga.github.io/heroes/assets/img/spiderman.png": "c22d275f2bea490cd1cc2828c65b5f5bfef1946a",
     "https://a14narriaga.github.io/heroes/assets/img/wolverine.png": "c39dac4245c9b7c2f49c6bb380cf439df8f4c5c2",
     "https://a14narriaga.github.io/heroes/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://a14narriaga.github.io/heroes/index.html": "ad02ada50bcf9f8fe535abd5705bf8cde3c81315",
-    "https://a14narriaga.github.io/heroes/main.a37f95cd50840d3c.js": "31a7a8d21b6eea4fa4c6ea9ab69ea4eb0f9ab749",
+    "https://a14narriaga.github.io/heroes/index.html": "56609b3e21f5e3c2684df1cc4beefa2676d228c3",
+    "https://a14narriaga.github.io/heroes/main.074b777558bb5470.js": "94e367e2b6f14545864ad8b0303aae71839c499a",
     "https://a14narriaga.github.io/heroes/manifest.webmanifest": "d7472f65da143688b0c77fd7e0cab237e48176e1",
     "https://a14narriaga.github.io/heroes/polyfills.85fa24cd1ba3cda2.js": "63be5f159ecb314dbe22a51835cd95f37f457f8d",
     "https://a14narriaga.github.io/heroes/runtime.a401e8bd700fe776.js": "86be6f862e3243755b2c8d8398ecf4859d2abc69",
