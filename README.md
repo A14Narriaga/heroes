@@ -24,10 +24,16 @@ npx ng g c <component_name>
 npm i
 ```
 
-## Add eslint format
+## Add Eslint format
 ```
 npx ng add @angular-eslint/schematics
 npx ng lint --format
+```
+
+## Prettier format
+```
+npm i --global prettier
+npx prettier --write .\src\
 ```
 
 ## Add PWA
@@ -37,7 +43,8 @@ npx ng add @angular/pwa
 
 ## Install develop dependencies
 ```
-npm install --save-dev prettier
+npm i --save-dev prettier
+npm i --save-dev @fortawesome/fontawesome-free
 ```
 
 ## Styles
@@ -45,13 +52,15 @@ npm install --save-dev prettier
 
 # Github pages
 ```
-npm install -g angular-cli-ghpages
-npx ng build --base-href "https://a14narriaga.github.io/tic-tac-toe/"
-npx ngh --dir dist/tic-tac-toe
+npm i -g angular-cli-ghpages
+npx ng build --base-href "https://a14narriaga.github.io/heroes/"
+npx ngh --dir dist/heroes
 ```
 
 ## Commits style
-- 🐛 FIX 🔹 Description
-- ✨ FEAT 🔹 Description
-- 🔨 REFACTOR 🔹 Description
-- 🎨 STYLE 🔹 Description
+- 🐛 FIX 🔹 A bug fix
+- ✨ FEAT 🔹 A new feature
+- 🔨 REFACTOR 🔹 Doesn't fix a bug or add a function
+- 🎨 STYLE 🔹 Not affect the meaning of the code
+- ⚙️ CONF 🔹 Add files and configurations.
+- 📝 TEXT 🔹 Comments or readme notes
