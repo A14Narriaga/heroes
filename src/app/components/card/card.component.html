@@ -1,0 +1,28 @@
+<div class="col animated fadeIn fast">
+	<div class="card">
+		<img
+			[src]="hero.img"
+			[alt]="hero.name"
+			class="card-img-top" />
+		<div class="card-body">
+			<h5 class="card-title">
+				{{ hero.name }}
+			</h5>
+			<p class="card-text">
+				{{ hero.bio }}
+			</p>
+			<p class="card-text">
+				<small class="text-muted">
+					{{ hero.first }}
+				</small>
+			</p>
+			<div class="d-grid gap-2">
+				<a
+					[routerLink]="['/hero', hero.id]"
+					class="btn btn-outline-primary">
+					Show more...
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

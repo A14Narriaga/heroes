@@ -1,7 +1,12 @@
 <nav
-	class="navbar navbar-expand-lg navbar-dark bg-dark">
+	class="
+		navbar navbar-expand-lg navbar-dark
+		bg-dark
+	">
 	<div class="container">
-		<a class="navbar-brand" [routerLink]="['home']">
+		<a
+			class="navbar-brand"
+			[routerLink]="['home']">
 			Superhero comics
 		</a>
 		<button
@@ -12,12 +17,18 @@
 			aria-controls="navbarSupportedContent"
 			aria-expanded="false"
 			aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span
+				class="navbar-toggler-icon"></span>
 		</button>
 		<div
 			class="collapse navbar-collapse"
 			id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<ul
+				class="
+					navbar-nav
+					me-auto
+					mb-2 mb-lg-0
+				">
 				<li class="nav-item">
 					<a
 						class="nav-link"
@@ -38,13 +49,17 @@
 			<form class="d-flex">
 				<input
 					#inputText
-					(keyup.enter)="searchHeroes(inputText.value)"
+					(keyup.enter)="
+						searchHeroes(inputText.value)
+					"
 					class="form-control me-2"
 					type="search"
 					placeholder="Hero's name"
 					aria-label="Search" />
 				<button
-					(click)="searchHeroes(inputText.value)"
+					(click)="
+						searchHeroes(inputText.value)
+					"
 					class="btn btn-outline-primary"
 					type="button">
 					Search

@@ -1,5 +1,11 @@
-import { Component, OnInit } from '@angular/core'
-import { ActivatedRoute } from '@angular/router'
+import {
+	Component,
+	OnInit,
+} from '@angular/core'
+import {
+	ActivatedRoute,
+	Router,
+} from '@angular/router'
 
 // Services
 import {
@@ -12,28 +18,42 @@ import {
 	templateUrl: './heroes.component.html',
 	styleUrls: ['./heroes.component.sass'],
 })
-export class HeroesComponent implements OnInit {
+export class HeroesComponent
+	implements OnInit
+{
 	heroes: Hero[]
 	searchText: string
 	constructor(
 		private heroesService: HeroesService,
-		private activatedRoute: ActivatedRoute
+		private activatedRoute: ActivatedRoute,
+		private router: Router
 	) {
 		this.heroes = []
 		this.searchText = ''
 	}
 
 	ngOnInit(): void {
-		this.activatedRoute.params.subscribe((params) => {
-			if (params['name'] && params['name'] !== '') {
-				this.searchText = params['name']
-				this.heroes = this.heroesService.searchHeroes(
-					params['name']
-				)
-			} else {
-				this.heroes = this.heroesService.getHeroes()
-				this.searchText = ''
+		this.activatedRoute.params.subscribe(
+			(params) => {
+				if (
+					params['name'] &&
+					params['name'] !== ''
+				) {
+					this.searchText = params['name']
+					this.heroes =
+						this.heroesService.searchHeroes(
+							params['name']
+						)
+				} else {
+					this.heroes =
+						this.heroesService.getHeroes()
+					this.searchText = ''
+				}
 			}
-		})
+		)
+	}
+
+	showHero = (index: number) => {
+		this.router.navigate(['/hero', index])
 	}
 }

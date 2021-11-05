@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core'
 
 export interface Hero {
+	id: number
 	name: string
 	bio: string
 	img: string
@@ -14,6 +15,7 @@ export interface Hero {
 export class HeroesService {
 	private heroes: Hero[] = [
 		{
+			id: 0,
 			name: 'Aquaman',
 			bio: 'Aquaman´s most recognized power is the telepathic ability to communicate with marine life, which it can summon over great distances.',
 			img: 'assets/img/aquaman.png',
@@ -21,6 +23,7 @@ export class HeroesService {
 			home: 'DC',
 		},
 		{
+			id: 1,
 			name: 'Batman',
 			bio: 'The main features of Batman are summarized in "physical prowess, deductive abilities and obsession." Most of the basic characteristics of the comics have varied by the different interpretations that have been given to the character.',
 			img: 'assets/img/batman.png',
@@ -28,6 +31,7 @@ export class HeroesService {
 			home: 'DC',
 		},
 		{
+			id: 2,
 			name: 'Daredevil',
 			bio: 'Having lost his sight, Daredevil´s remaining four senses were heightened by radiation to superhuman levels, in the accident he had as a child. Despite his blindness, he can "see" through a "sixth sense" that serves as a bat-like radar.',
 			img: 'assets/img/daredevil.png',
@@ -35,6 +39,7 @@ export class HeroesService {
 			home: 'Marvel',
 		},
 		{
+			id: 3,
 			name: 'Hulk',
 			bio: 'His main power is his ability to increase his strength to virtually unlimited levels while increasing his fury. Depending on which Hulk personality is in command at the time (the Hulk Banner is the weakest, but he makes up for it with his intelligence).',
 			img: 'assets/img/hulk.png',
@@ -42,6 +47,7 @@ export class HeroesService {
 			home: 'Marvel',
 		},
 		{
+			id: 4,
 			name: 'Green Lantern',
 			bio: 'Possessor of the ring of power that possesses the ability to create manifestations of solid light through the use of thought. It is powered by the Green Flame (revised by later writers as a mystical power called Starheart), a magical flame contained within an orb (the orb was actually a green metal meteorite that fell to Earth, which a manufacturer found of lamps named Chang).',
 			img: 'assets/img/linterna-verde.png',
@@ -49,6 +55,7 @@ export class HeroesService {
 			home: 'DC',
 		},
 		{
+			id: 5,
 			name: 'Spider-Man',
 			bio: 'After being bitten by a radioactive spider, he obtained the following superhuman powers, great strength, agility, being able to climb walls. Spider-Man´s strength allows him to lift 10 tons or more. Thanks to this great strength, Spider-Man can perform incredible jumps. A "spider sense", which lets him know if a danger is looming over him, before it happens. Sometimes this can lead Spider-Man to the source of danger.',
 			img: 'assets/img/spiderman.png',
@@ -56,6 +63,7 @@ export class HeroesService {
 			home: 'Marvel',
 		},
 		{
+			id: 6,
 			name: 'Wolverine',
 			bio: 'In the fictional universe of Marvel, Wolverine has regenerative powers that can heal any wound, no matter how deadly it may be, and that same power makes him immune to any disease existing on Earth and some aliens. He also has superhuman strength, which although it does not compare with that of other superheroes like the Hulk, it does exceed that of any human.',
 			img: 'assets/img/wolverine.png',
@@ -68,7 +76,8 @@ export class HeroesService {
 
 	getHeroes = (): Hero[] => this.heroes
 
-	getHeroe = (id: number): Hero => this.heroes[id]
+	getHeroe = (id: number): Hero =>
+		this.heroes[id]
 
 	searchHeroes = (name: string): Hero[] =>
 		this.heroes.filter((hero) =>

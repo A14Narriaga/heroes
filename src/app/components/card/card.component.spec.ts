@@ -3,21 +3,21 @@ import {
 	TestBed,
 } from '@angular/core/testing'
 
-import { HeroComponent } from './hero.component'
+import { CardComponent } from './card.component'
 
-describe('HeroComponent', () => {
-	let component: HeroComponent
-	let fixture: ComponentFixture<HeroComponent>
+describe('CardComponent', () => {
+	let component: CardComponent
+	let fixture: ComponentFixture<CardComponent>
 
 	beforeEach(async () => {
 		await TestBed.configureTestingModule({
-			declarations: [HeroComponent],
+			declarations: [CardComponent],
 		}).compileComponents()
 	})
 
 	beforeEach(() => {
 		fixture = TestBed.createComponent(
-			HeroComponent
+			CardComponent
 		)
 		component = fixture.componentInstance
 		fixture.detectChanges()
