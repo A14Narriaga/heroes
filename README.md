@@ -52,7 +52,7 @@ npm i --save-dev @fortawesome/fontawesome-free
 ## Bootstrap
 [Bootstrap v5.1](https://getbootstrap.com/docs/5.1/getting-started/download/)
 
-# Github pages
+## Github pages
 ```
 npm i -g angular-cli-ghpages
 npx ng build --base-href "https://a14narriaga.github.io/heroes/"
